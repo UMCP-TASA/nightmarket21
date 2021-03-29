@@ -1,0 +1,12 @@
+diff --git a/node_modules/@react-spring/native/package.json b/node_modules/@react-spring/native/package.json
+index b3178c9..8e9592c 100644
+--- a/node_modules/@react-spring/native/package.json
++++ b/node_modules/@react-spring/native/package.json
+@@ -70,7 +74,6 @@
+     "access": "public"
+   },
+   "react-native": "src/index.ts",
+-  "sideEffects": false,
+   "types": "index.d.ts",
+   "version": "9.0.0-rc.3"
+ }

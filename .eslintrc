@@ -1,0 +1,34 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier/@typescript-eslint",
+        "prettier/react",
+        "plugin:prettier/recommended",
+        "plugin:react/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "rules": {
+        "max-len": [
+            "error",
+            {
+                "code": 140,
+                "ignoreUrls": true
+            }
+        ],
+        "import/prefer-default-export": "off",
+        "@typescript-eslint/explicit-function-return-type": "off"
+    }
+}

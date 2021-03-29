@@ -1,0 +1,12 @@
+diff --git a/node_modules/@react-spring/zdog/package.json b/node_modules/@react-spring/zdog/package.json
+index 4c566e6..7049492 100644
+--- a/node_modules/@react-spring/zdog/package.json
++++ b/node_modules/@react-spring/zdog/package.json
+@@ -71,7 +75,6 @@
+   "publishConfig": {
+     "access": "public"
+   },
+-  "sideEffects": false,
+   "types": "index.d.ts",
+   "version": "9.0.0-rc.3"
+ }

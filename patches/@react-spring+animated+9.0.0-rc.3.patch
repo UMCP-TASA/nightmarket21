@@ -1,0 +1,12 @@
+diff --git a/node_modules/@react-spring/animated/package.json b/node_modules/@react-spring/animated/package.json
+index 9f86492..98c6f4b 100644
+--- a/node_modules/@react-spring/animated/package.json
++++ b/node_modules/@react-spring/animated/package.json
+@@ -65,7 +71,6 @@
+     "access": "public"
+   },
+   "react-native": "src/index.ts",
+-  "sideEffects": false,
+   "types": "index.d.ts",
+   "version": "9.0.0-rc.3"
+ }

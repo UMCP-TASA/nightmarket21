@@ -1,7 +1,7 @@
 {
-  "name": "night-market-21",
+  "name": "tour-of-taiwan-20",
   "private": true,
-  "description": "UMCP TASA Night Market 2021",
+  "description": "UMCP TASA Tour of Taiwan 2020",
   "version": "0.1.0",
   "author": "UMCP TASA <umcptasa@gmail.com>",
   "dependencies": {
@@ -35,7 +35,6 @@
     "gatsby-transformer-remark": "^2.10.0",
     "gatsby-transformer-sharp": "^2.6.0",
     "gsap": "^3.5.1",
-    "joi": "^17.4.0",
     "netlify-cms-app": "^2.13.3",
     "patch-package": "^6.2.2",
     "react": "^16.14.0",

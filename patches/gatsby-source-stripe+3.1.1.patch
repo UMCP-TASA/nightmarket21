@@ -1,0 +1,24 @@
+diff --git a/node_modules/gatsby-source-stripe/FileDownloadService.js b/node_modules/gatsby-source-stripe/FileDownloadService.js
+index 3598950..b7932df 100644
+--- a/node_modules/gatsby-source-stripe/FileDownloadService.js
++++ b/node_modules/gatsby-source-stripe/FileDownloadService.js
+@@ -31,6 +31,7 @@ class FileDownloadService {
+     switch (node.object) {
+       case 'product':
+       case 'sku':
++      case 'price':
+         return this.downloadFiles(node);
+ 
+       default:
+diff --git a/node_modules/gatsby-source-stripe/helpers/extractUrls.js b/node_modules/gatsby-source-stripe/helpers/extractUrls.js
+index af34fb1..3574910 100644
+--- a/node_modules/gatsby-source-stripe/helpers/extractUrls.js
++++ b/node_modules/gatsby-source-stripe/helpers/extractUrls.js
+@@ -10,6 +10,7 @@ function extractUrls(node) {
+         url
+       }));
+ 
++    case 'price':
+     case "sku":
+       return extractSkuUrls(node);
+ 

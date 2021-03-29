@@ -50,8 +50,6 @@ const Header = ({}: Props) => {
                         <Hidden smDown>
                             <Grid item>
                                 <HeaderLink to="/" text="Home" />
-                                <HeaderLink to="/cities" text="Cities" />
-                                <HeaderLink to="/food" text="Food" />
                                 <HeaderLink to="/raffle" text="Raffle" />
                             </Grid>
                         </Hidden>

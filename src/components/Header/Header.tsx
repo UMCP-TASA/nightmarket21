@@ -18,7 +18,7 @@ import { Link } from "gatsby"
 const useStyles = makeStyles(theme => ({
     link: {
         textDecoration: "none",
-        color: "inherit",
+        color: "blue",
     },
     headerProfile: {
         marginLeft: theme.spacing(2),
@@ -49,7 +49,6 @@ const Header = ({}: Props) => {
 
                         <Hidden smDown>
                             <Grid item>
-                                <HeaderLink to="/" text="Home" />
                                 <HeaderLink to="/raffle" text="Raffle" />
                             </Grid>
                         </Hidden>

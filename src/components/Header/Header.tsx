@@ -9,7 +9,7 @@ import {
     makeStyles,
 } from "@material-ui/core"
 
-import Logo from "components/TASALogo"
+import Logo from "components/Logo"
 import HeaderLink from "./HeaderLink"
 import HeaderProfileMenu from "./HeaderProfileMenu"
 import Cart from "components/Cart"

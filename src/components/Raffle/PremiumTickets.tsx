@@ -21,7 +21,7 @@ type Props = CollectionQuery & {
     isSignedIn?: boolean
 }
 
-type Prizes = "Switch" | "Airpods"
+type Prizes = "Switch" | "Apple mmWatch"
 
 type TicketItem = {
     id: string
@@ -32,7 +32,7 @@ type TicketItem = {
 }
 
 const LEFT = "Switch"
-const RIGHT = "Airpods"
+const RIGHT = "Apple Watch"
 
 const getID = (item: TicketItem) => item.id
 

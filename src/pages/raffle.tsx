@@ -43,14 +43,12 @@ const a11yProps = (i: number) => ({
 })
 
 const basicPrizes = [
-    "Tour of Taiwan T-shirt",
-    "Polaroid camera",
-    "Weighted blanket",
-    "Boba making kit",
-    "Stuffed polar bear",
-    "Stuffed shiba inu",
-    "LED strip lights",
-    "Kitty lamp",
+    "Bluetooth Speaker",
+    "Boba Set",
+    "The Comfy Hoodie",
+    "Appa Plush",
+    "Weighted Blanket",
+    "Duck Plushie",
 ]
 
 const RafflePage = ({ data }: PageProps<RafflePageQuery>) => {
@@ -182,14 +180,13 @@ const RafflePage = ({ data }: PageProps<RafflePageQuery>) => {
                                                 align="center"
                                                 gutterBottom
                                             >
-                                                Buy to win Airpods Pro or
-                                                Nintendo Switch Animal Crossing
-                                                Edition!
+                                                Buy to win an Apple Watch or
+                                                a Nintendo Switch!
                                             </Typography>
                                             <Typography align="center">
                                                 Premium tickets are special
                                                 tickets that you can choose to
-                                                enter into either the Airpods
+                                                enter into either the Apple Watch
                                                 raffle <b>OR</b> the Switch
                                                 raffle. Tickets are put into the
                                                 Switch raffle pool by default,

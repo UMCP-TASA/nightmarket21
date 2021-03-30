@@ -40,9 +40,6 @@ const Header = ({}: Props) => {
                                     <Grid item>
                                         <Logo />
                                     </Grid>
-                                    <Grid item>
-                                        <Typography>Night Market</Typography>
-                                    </Grid>
                                 </Grid>
                             </Link>
                         </Grid>

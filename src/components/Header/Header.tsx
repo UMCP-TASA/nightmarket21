@@ -31,7 +31,7 @@ const Header = ({}: Props) => {
     const classes = useStyles()
     return (
         <>
-            <AppBar component="header" position="fixed" color="default">
+            <AppBar component="header" position="fixed" color="inherit">
                 <Toolbar>
                     <Grid container alignItems="center" justify="space-between">
                         <Grid item>

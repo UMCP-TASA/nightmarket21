@@ -18,7 +18,7 @@ import { Link } from "gatsby"
 const useStyles = makeStyles(theme => ({
     link: {
         textDecoration: "none",
-        color: "#fff",
+        color: "inherit",
     },
     headerProfile: {
         marginLeft: theme.spacing(2),
@@ -31,7 +31,7 @@ const Header = ({}: Props) => {
     const classes = useStyles()
     return (
         <>
-            <AppBar component="header" position="fixed" color="darkBlue">
+            <AppBar component="header" position="fixed" color="default">
                 <Toolbar>
                     <Grid container alignItems="center" justify="space-between">
                         <Grid item>

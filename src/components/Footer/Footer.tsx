@@ -40,30 +40,6 @@ const Footer = ({}: Props) => {
                     <Grid container alignItems="center" justify="space-between">
                         <Grid item xs={2}>
                             <FooterLinkButton
-                                to="/"
-                                Icon={HomeOutlined}
-                                name="Home"
-                            />
-                        </Grid>
-
-                        <Grid item xs={2}>
-                            <FooterLinkButton
-                                to="/cities"
-                                Icon={MapOutlined}
-                                name="Cities"
-                            />
-                        </Grid>
-
-                        <Grid item xs={2}>
-                            <FooterLinkButton
-                                to="/food"
-                                Icon={FastfoodOutlined}
-                                name="Food"
-                            />
-                        </Grid>
-
-                        <Grid item xs={2}>
-                            <FooterLinkButton
                                 to="/raffle"
                                 Icon={ConfirmationNumberOutlined}
                                 name="Raffle"

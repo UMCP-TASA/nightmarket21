@@ -8,8 +8,8 @@ const theme = createMuiTheme({
     palette: {
         primary: {
             // main: "#303f9f",
-            main: "#e9b3b1",
-            contrastText: "#212121",
+            main: "#1a237e",
+            contrastText: "#ffffff",
         },
         secondary: {
             //main: "#8e24aa",

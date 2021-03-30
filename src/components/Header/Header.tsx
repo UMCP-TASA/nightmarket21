@@ -28,7 +28,7 @@ const useStyles = makeStyles(theme => ({
 type Props = {}
 
 const Header = ({}: Props) => {
-    const classes = useStyles()m
+    const classes = useStyles()
     return (
         <>
             <AppBar component="header" position="fixed" color="default">

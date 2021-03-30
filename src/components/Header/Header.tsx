@@ -9,7 +9,7 @@ import {
     makeStyles,
 } from "@material-ui/core"
 
-import Logo from "components/Logo"
+import Logo from "components/TASALogo"
 import HeaderLink from "./HeaderLink"
 import HeaderProfileMenu from "./HeaderProfileMenu"
 import Cart from "components/Cart"
@@ -28,7 +28,7 @@ const useStyles = makeStyles(theme => ({
 type Props = {}
 
 const Header = ({}: Props) => {
-    const classes = useStyles()
+    const classes = useStyles()m
     return (
         <>
             <AppBar component="header" position="fixed" color="default">
@@ -41,7 +41,7 @@ const Header = ({}: Props) => {
                                         <Logo />
                                     </Grid>
                                     <Grid item>
-                                        <Typography>Tour of Taiwan</Typography>
+                                        <Typography>Night Market</Typography>
                                     </Grid>
                                 </Grid>
                             </Link>

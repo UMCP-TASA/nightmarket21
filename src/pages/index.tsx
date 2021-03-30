@@ -69,30 +69,6 @@ const useStyles = makeStyles(theme => ({
         width: "100%",
         position: "absolute",
     },
-    building: {
-        width: "33%",
-        zIndex: 2,
-        position: "absolute",
-        right: "2%",
-        [theme.breakpoints.down("sm")]: {
-            bottom: "5%",
-        },
-        [theme.breakpoints.down("xs")]: {
-            width: "55%",
-            right: "5%",
-        }
-    },
-    button: {
-        // background: 'pink !important',
-        fontWeight: "bold",
-        fontSize: "20px",
-        marginTop: "4%",
-        zIndex: 3,
-        [theme.breakpoints.down("xs")]: {
-            fontSize: "15px",
-            marginTop: "10%",
-        },
-    },
 }))
 
 const IndexPage = () => {

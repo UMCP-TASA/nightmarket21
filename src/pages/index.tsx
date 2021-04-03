@@ -12,7 +12,7 @@ const getSvgPath = (file: string) => `/svg/home/${file}`
 const useStyles = makeStyles(theme => ({
     container: {
         //backgroundImage: "url(/svg/home/sky.svg)",
-        backgroundImage: `url(${getSvgPath("sky.svg")})`,
+        backgroundImage: `url(${getSvgPath("cover.png")})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         height: "100vh",
@@ -83,7 +83,7 @@ const useStyles = makeStyles(theme => ({
         }
     },
     button: {
-        // background: 'pink !important',
+        // background: 'pink !importad
         fontWeight: "bold",
         fontSize: "20px",
         marginTop: "4%",
@@ -152,43 +152,15 @@ const IndexPage = () => {
                         style={{ minHeight: "450px", objectFit: "cover" }}
                     />
                 </animated.div>
-                <animated.div style={tp101Props} className={classes.tp101}>
-                    <img
-                        src={getSvgPath("tp101.svg")}
-                        style={{ height: "100%" }}
-                    />
-                </animated.div>
-                <animated.div
-                    style={buildingProps}
-                    className={classes.building}
-                >
-                    <img
-                        src={getSvgPath("building.svg")}
-                        style={{ width: "100%" }}
-                    />
-                </animated.div>
-                <div className={classes.logoContainer}>
-                <animated.div  style={logoAProps}>
-                    <img
-                        src={getSvgPath("logo-a.svg")}
-                        className={classes.logoA}
-                    />
-                </animated.div>
-                <animated.div style={logoBProps}>
-                    <img
-                        src={getSvgPath("logo-b.svg")}
-                        className={classes.logoB}
-                    />
-                </animated.div>
                 <animated.div style={{ ...buttonProps, ...buttonBoop }}>
                     <LinkButton
-                        to="/cities"
+                        to="/raffle"
                         className={classes.button}
                         onMouseEnter={trigger}
                         variant="contained"
                         color="primary"
                     >
-                        Begin Tour
+                        To Raffles
                     </LinkButton>
                 </animated.div>
                 </div>

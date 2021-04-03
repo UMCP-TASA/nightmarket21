@@ -163,8 +163,6 @@ const IndexPage = () => {
                         To Raffles
                     </LinkButton>
                 </animated.div>
-                </div>
-               
             </div>
         </>
     )

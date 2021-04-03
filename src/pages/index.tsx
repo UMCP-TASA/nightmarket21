@@ -143,15 +143,6 @@ const IndexPage = () => {
         <>
             <SEO title="Home" />
             <div className={classes.container}>
-                <animated.div
-                    style={mountainProps}
-                    className={classes.mountain}
-                >
-                    <img
-                        src={getSvgPath("mountain.svg")}
-                        style={{ minHeight: "450px", objectFit: "cover" }}
-                    />
-                </animated.div>
                 <animated.div style={{ ...buttonProps, ...buttonBoop }}>
                     <LinkButton
                         to="/raffle"

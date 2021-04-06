@@ -143,17 +143,31 @@ const IndexPage = () => {
         <>
             <SEO title="Home" />
             <div className={classes.container}>
-                <animated.div style={{ ...buttonProps, ...buttonBoop }}>
-                    <LinkButton
-                        to="/raffle"
-                        className={classes.button}
-                        onMouseEnter={trigger}
-                        variant="contained"
-                        color="primary"
-                    >
-                        To Raffles
-                    </LinkButton>
-                </animated.div>
+                <div className={classes.logoContainer}>
+                    <animated.div  style={logoAProps}>
+                        <img
+                            src={getSvgPath("logo-a.svg")}
+                            className={classes.logoA}
+                        />
+                    </animated.div>
+                    <animated.div style={logoBProps}>
+                        <img
+                            src={getSvgPath("logo-b.svg")}
+                            className={classes.logoB}
+                        />
+                    </animated.div>
+                    <animated.div style={{ ...buttonProps, ...buttonBoop }}>
+                        <LinkButton
+                            to="/raffle"
+                            className={classes.button}
+                            onMouseEnter={trigger}
+                            variant="contained"
+                            color="primary"
+                        >
+                            To Raffles
+                        </LinkButton>
+                    </animated.div>
+                </div>
             </div>
         </>
     )

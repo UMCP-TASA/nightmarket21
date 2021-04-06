@@ -2,8 +2,8 @@ require("dotenv").config()
 
 module.exports = {
     siteMetadata: {
-        title: `Tour of Taiwan`,
-        description: `UMCP TASA Tour of Taiwan 2020`,
+        title: `Night Market`,
+        description: `UMCP TASA Night Market 2021`,
         author: `UMCP TASA`,
     },
     plugins: [
@@ -115,7 +115,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Tour of Taiwan 2020`,
+                name: `Night Market 2021`,
                 short_name: `ToT`,
                 start_url: `/`,
                 background_color: `#663399`,

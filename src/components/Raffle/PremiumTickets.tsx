@@ -21,7 +21,7 @@ type Props = CollectionQuery & {
     isSignedIn?: boolean
 }
 
-type Prizes = "Switch" | "Apple mmWatch"
+type Prizes = "Switch" | "Apple Watch"
 
 type TicketItem = {
     id: string

@@ -146,13 +146,13 @@ const IndexPage = () => {
                 <div className={classes.logoContainer}>
                     <animated.div  style={logoAProps}>
                         <img
-                            src={getSvgPath("logo-a.svg")}
+                            src={getSvgPath("logo-a.png")}
                             className={classes.logoA}
                         />
                     </animated.div>
                     <animated.div style={logoBProps}>
                         <img
-                            src={getSvgPath("logo-b.svg")}
+                            src={getSvgPath("logo-b.png")}
                             className={classes.logoB}
                         />
                     </animated.div>

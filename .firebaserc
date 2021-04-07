@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "nightmarket-9e848"
+    "default": "nightmarket-9e848",
+    "nm21": "nightmarket-9e848"
   }
 }

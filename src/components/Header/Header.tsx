@@ -45,7 +45,7 @@ const Header = ({}: Props) => {
                         </Grid>
 
                         <Hidden smDown>
-                            <Grid item>
+                            <Grid item style={{paddingLeft: "120px"}}>
                                 <HeaderLink to="/" text="Home" />
                                 <HeaderLink to="/raffle" text="Raffle" />
                             </Grid>

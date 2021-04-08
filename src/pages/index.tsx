@@ -34,19 +34,17 @@ const useStyles = makeStyles(theme => ({
         },
     },
     logoA: {
-        width: "350px",
+        width: "500px",
         zIndex: 3,
         [theme.breakpoints.down("xs")]: {
-            width: "60%",
+            width: "85%"
         },
     },
     logoB: {
         width: "500px",
-        marginTop: "30px",
         zIndex: 3,
         [theme.breakpoints.down("xs")]: {
-            width: "85%",
-            marginTop: "20px",
+            width: "85%"
         },
     },
     tp101: {

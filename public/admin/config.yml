@@ -1,0 +1,65 @@
+backend:
+    name: github # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
+    branch: main # Branch to update
+    repo: UMCP-TASA/tour-of-taiwan # Repo for pushing new commits. Make sure to replace with your repo!
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+    - name: cities
+      label: "Cities"
+      identifier_field: name
+      folder: "content/cities"
+      create: true # whether or not new cities can be added
+      slug: "{{slug}}" # unique URL for the created city
+      fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Cover Image", name: "imgsrc", widget: "image" }
+          - {
+                label: "Category",
+                name: "category",
+                widget: "hidden",
+                default: "city",
+            }
+          - {
+                label: "YouTube Video Link",
+                name: "video",
+                widget: "markdown",
+                hint: "Just paste the video link! It'll get transformed into the video",
+                minimal: true,
+            }
+          - { label: "Description", name: "body", widget: "markdown" }
+    - name: Food
+      identifier_field: name
+      label: "Food"
+      folder: "content/food"
+      create: true
+      fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - {
+                label: "Category",
+                name: "category",
+                widget: "hidden",
+                default: "food",
+            }
+          - {
+                label: "Picture",
+                name: "imgsrc",
+                widget: "image",
+                hint: "Images with the same aspect ratio are preferred!",
+            }
+          - {
+                label: "YouTube Video Link",
+                name: "video",
+                widget: "markdown",
+                hint: "Just paste the video link! It'll get transformed into the video",
+                minimal: true,
+            }
+          - {
+                label: "Description",
+                name: "body",
+                widget: "markdown",
+                required: false,
+                default: "No description",
+            }

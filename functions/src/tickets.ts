@@ -9,7 +9,7 @@ export enum CATEGORIES {
 export enum PRIZES {
   GENERAL = "General",
   SWITCH = "Switch",
-  AIRPODS = "Airpods"
+  AIRPODS = "Watch"
 }
 
 const getRandom = () => {

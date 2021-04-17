@@ -44,6 +44,7 @@ const a11yProps = (i: number) => ({
 
 const basicPrizes = [
     "Bluetooth Speaker",
+    "Amazon Dot",
     "Boba Set",
     "The Comfy Hoodie",
     "Appa Plush",

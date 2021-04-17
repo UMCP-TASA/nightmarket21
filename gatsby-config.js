@@ -116,7 +116,7 @@ module.exports = {
             resolve: `gatsby-plugin-manifest`,
             options: {
                 name: `Night Market 2021`,
-                short_name: `ToT`,
+                short_name: `NM`,
                 start_url: `/`,
                 background_color: `#663399`,
                 theme_color: `#663399`,

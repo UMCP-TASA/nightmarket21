@@ -18,7 +18,7 @@ const useStyles = makeStyles(theme => ({
 
 type Props = {}
 
-const prizes = ["General", "Switch", "Airpods"]
+const prizes = ["General", "Switch", "Apple Watch"]
 
 const ChooseWinner = ({}: Props) => {
     const classes = useStyles()

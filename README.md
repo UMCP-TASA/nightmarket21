@@ -1,6 +1,6 @@
 # UMCP TASA Night Market 2021
 
-Our application for our Tour of Taiwan event. Utilizes Gatsby, React, Netlify, and Firebase
+Our application for our Night Market event. Utilizes Gatsby, React, Netlify, and Firebase
 
 # Table of Contents
 
